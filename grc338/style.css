@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: #fffaf0;
+  }
+  h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+    color: #009
+  }
+  h2 {
+    text-align: center;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    color:#009
+  }
+  h3 {
+    text-align: center;
+    font-family: Helvetica, Arial, Helvetica, serif;
+    font-size: 1em;
+    font-style: bold;
+    color:#009
+  }
+  li {
+    text-align: center;
+    font-size: 1.3em;
+    font-style: bold;
+  }
+  p {
+    text-align: center;
+    font-size: 1em;
+  }
