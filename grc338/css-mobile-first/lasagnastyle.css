@@ -22,8 +22,8 @@ body {
 }
 
 header {
-    background-color: #F08C36;
-    color: #FAF9F7;
+    background-color: #f5790d;
+    color: #f5790d;
     font-weight: 600; 
 }
 
@@ -68,7 +68,7 @@ h3 {
 	margin-left: 1rem;
 	padding: 1.5rem 1rem 1rem;
 	font-size: 20px;
-	color: #F08C36; 
+	color: #f5790d; 
     font-family: "Sutro", serif;
     font-style: lighter; 
 	font-weight: 300;
@@ -99,7 +99,7 @@ li {
 }
 
 footer {
-    background-color: #F08C36;
+    background-color: #f5790d;
     margin: 1rem 0rem 0rem;
 	padding: 1rem 2rem 1rem;
 	color: #FAF9F7; 
