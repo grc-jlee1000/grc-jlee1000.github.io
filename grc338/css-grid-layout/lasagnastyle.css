@@ -1,0 +1,131 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, 
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+ b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+ table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+ details, embed, figure, figcaption, footer, header, hgroup, menu, nav, 
+ output, ruby, section, summary, time, mark, audio, 
+ video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+ img {
+    width: 100%; /*Please leave this line.*/
+    display:block; 
+    background-color: #FAF9F7; 
+    padding-bottom: 3em;
+        background-color: rgb(220,220,220);
+        background-clip: content-box;
+}
+
+body {
+	background-color: #d3d3d3; /* Not totally white. */
+	color: #363636;  /* Not totally black. */
+	line-height: 100%; 	/* A little extra leading. */
+	font-family: "Sutro", serif;
+}
+
+div.container {
+    max-width: 72em; 
+    margin: auto; 
+    padding-bottom: 1em;
+    background-color: #FAF9F7;
+}
+
+header {
+    background-color: rgb(227,134,31);
+    color: #FAF9F7;
+    font-weight: 600; 
+}
+
+figure { 
+    display: grid; 
+    grid-template-columns: 80% auto;
+}
+
+figcaption {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-weight:400em;
+    line-height: 1.6rem; 
+    padding: .5em 2em 1em;
+}
+
+h1 {
+	font-size: 2em;
+    font-weight: 600;
+    line-height: 110%;
+    padding: 1rem 0.3rem 0.2rem;
+    margin: 0em 1em 0.5em;
+}
+
+h1 span { 	
+	font-family: "Sutro",serif;
+	font-style: normal;
+	font-weight: 700;
+    color: #FAF9F7;
+}
+
+h2 {
+	opacity: 0.3;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0.5rem 2.5rem 2rem;
+}
+
+h2 span {
+    font-family: "Sutro", serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FAF9F7;
+}
+
+main {
+    display: grid; 
+    grid-template-columns: auto auto;
+}   
+
+h3 {
+	margin-left: 1rem;
+	padding: 1.5rem 1rem 1.5rem;
+	font-size: 1.3em;
+	color: rgb(251,114,8); 
+    font-family: "Sutro", serif;
+    font-style: lighter; 
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem; 
+    border-top: solid rgb(251,114,8) .1em;
+}
+
+ul {
+	padding: 0.1em 2em 0.1em;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+
+ol {
+    padding: 0.1rem 2rem 0.1rem;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(251,114,8);
+    margin-bottom: 2em 5em auto;
+	padding: 1rem 2rem 1.5rem;
+	color: #FAF9F7; 
+    font-family: "Poppins", serif; 
+    font-style: normal; 
+	font-weight: 300;
+}
